@@ -142,6 +142,6 @@ html_static_path = ["_static"]
 #git push origin --delete docs_build
 #git checkout -b docs_build
 #sphinx-build -b html docs docs/_build/html
-#git add docs/_build/html
+#git add -f docs/_build/html
 #git commit -m "Update documentation"
 #git push --set-upstream origin docs_build
